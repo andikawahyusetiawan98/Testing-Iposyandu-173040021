@@ -19,6 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('id.iposyandu.kader')
 
+'nomor wajib di ganti setelah pengujian dilakukan, karena jika tidak akan terjadi eror dimana nomor yang sudah di ujikan sudah terdaftar dan tidak sesuai test case yang di inginkan'
 Mobile.setText(findTestObject('Object Repository/Repo-Iposyandu-173040021/RKF-01-Mendaftar Akun/android.widget.EditText - 081995424261616161'), 
     '0819954243127', 30)
 

@@ -22,6 +22,7 @@ Mobile.startExistingApplication('id.iposyandu.kader')
 Mobile.setText(findTestObject('Object Repository/Repo-Iposyandu-173040021/RKF-01-Mendaftar Akun/android.widget.EditText - NAMA LENGKAP (1)'), 
     'andika wahyu setiawan', 30)
 
+'nomor wajib di ganti setelah pengujian dilakukan, karena jika tidak akan terjadi eror dimana nomor yang sudah di ujikan sudah terdaftar dan tidak sesuai test case yang di inginkan'
 Mobile.setText(findTestObject('Repo-Iposyandu-173040021/RKF-01-Mendaftar Akun/android.widget.EditText - NOMOR HANDPHONE (1)'), 
     '0819954243126', 30)
 
